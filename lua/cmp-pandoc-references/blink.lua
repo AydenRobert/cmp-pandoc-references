@@ -16,6 +16,7 @@ function source:enabled()
     or vim.o.filetype == 'rmd'
     or vim.o.filetype == 'quarto'
     or vim.o.filetype == 'typst'
+    or vim.o.filetype == 'telekasten'
 end
 
 function source:get_trigger_characters()
